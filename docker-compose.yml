@@ -1,10 +1,10 @@
 services:
   # O Hub de Integração (Hyperf)
-  hub-integracao:
+  integraflow:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: hub-integracao
+    container_name: integraflow
     restart: always
     ports:
       - "9501:9501"
