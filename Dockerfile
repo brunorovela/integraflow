@@ -16,6 +16,8 @@ RUN ln -sf /usr/bin/php84 /usr/bin/php \
 COPY . /opt/www
 # RUN composer install --no-dev --optimize-autoloader
 
+RUN git config --global --add safe.directory /opt/www
+
 EXPOSE 9501
 
 ENTRYPOINT ["php", "/opt/www/bin/hyperf.php", "start"]

@@ -25,6 +25,10 @@ When you don't want to use Docker as the basis for your running environment, you
 
 The easiest way to create a new Hyperf project is to use [Composer](https://getcomposer.org/). If you don't have it already installed, then please install as per [the documentation](https://getcomposer.org/download/).
 
+```bash
+docker run -v ./:/opt/www -w /opt/www --rm hyperf/hyperf:8.4-alpine-v3.22-swoole-slim composer install
+```
+
 To create your new Hyperf project:
 
 ```bash

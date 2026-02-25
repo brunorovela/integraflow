@@ -1,5 +1,4 @@
 services:
-  # O Hub de Integração (Hyperf)
   integraflow:
     build:
       context: .

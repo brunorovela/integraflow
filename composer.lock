@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0882214d3c3513a67b5aec1c2ca1f9d",
+    "content-hash": "e712449de6f6cd3a024a7bc37a17a362",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -680,16 +680,16 @@
         },
         {
             "name": "hyperf/cache",
-            "version": "v3.1.63",
+            "version": "v3.1.67",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/cache.git",
-                "reference": "02ee5919c21a883f8abcdc6da10a40370ba69d19"
+                "reference": "55f8d86088af897367602ff746f3e34e086a0631"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/cache/zipball/02ee5919c21a883f8abcdc6da10a40370ba69d19",
-                "reference": "02ee5919c21a883f8abcdc6da10a40370ba69d19",
+                "url": "https://api.github.com/repos/hyperf/cache/zipball/55f8d86088af897367602ff746f3e34e086a0631",
+                "reference": "55f8d86088af897367602ff746f3e34e086a0631",
                 "shasum": ""
             },
             "require": {
@@ -749,7 +749,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-10-30T01:44:44+00:00"
+            "time": "2026-01-30T09:43:48+00:00"
         },
         {
             "name": "hyperf/code-parser",
@@ -1400,16 +1400,16 @@
         },
         {
             "name": "hyperf/database",
-            "version": "v3.1.66",
+            "version": "v3.1.67",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/database.git",
-                "reference": "1cd7d6e801c4c6141542e74a704622b1acf0d3a0"
+                "reference": "2476ecb0172d7ea5e88ae3704069f0085f56134b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/database/zipball/1cd7d6e801c4c6141542e74a704622b1acf0d3a0",
-                "reference": "1cd7d6e801c4c6141542e74a704622b1acf0d3a0",
+                "url": "https://api.github.com/repos/hyperf/database/zipball/2476ecb0172d7ea5e88ae3704069f0085f56134b",
+                "reference": "2476ecb0172d7ea5e88ae3704069f0085f56134b",
                 "shasum": ""
             },
             "require": {
@@ -1472,7 +1472,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-01-25T03:03:10+00:00"
+            "time": "2026-02-01T07:54:40+00:00"
         },
         {
             "name": "hyperf/db-connection",
@@ -1548,16 +1548,16 @@
         },
         {
             "name": "hyperf/di",
-            "version": "v3.1.65",
+            "version": "v3.1.67",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/di.git",
-                "reference": "1bfc22ed3f6d1328d10d902ff0e5fdc11ba9faa3"
+                "reference": "6c0c40b6b116a5e7ed52a8ee0c2d9891a61aabc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/di/zipball/1bfc22ed3f6d1328d10d902ff0e5fdc11ba9faa3",
-                "reference": "1bfc22ed3f6d1328d10d902ff0e5fdc11ba9faa3",
+                "url": "https://api.github.com/repos/hyperf/di/zipball/6c0c40b6b116a5e7ed52a8ee0c2d9891a61aabc6",
+                "reference": "6c0c40b6b116a5e7ed52a8ee0c2d9891a61aabc6",
                 "shasum": ""
             },
             "require": {
@@ -1625,7 +1625,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-12-01T03:37:59+00:00"
+            "time": "2026-02-24T02:05:40+00:00"
         },
         {
             "name": "hyperf/dispatcher",
@@ -6446,15 +6446,15 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.32",
+            "version": "2.1.40",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2770dcdf5078d0b0d53f94317e06affe88419aa8",
-                "reference": "2770dcdf5078d0b0d53f94317e06affe88419aa8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9b2c7aeb83a75d8680ea5e7c9b7fca88052b766b",
+                "reference": "9b2c7aeb83a75d8680ea5e7c9b7fca88052b766b",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2|^8.0"
+                "php": "^7.4|^8.0"
             },
             "conflict": {
                 "phpstan/phpstan-shim": "*"
@@ -6495,7 +6495,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-30T10:16:31+00:00"
+            "time": "2026-02-23T15:04:35+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -8408,16 +8408,16 @@
         },
         {
             "name": "swoole/ide-helper",
-            "version": "5.1.8",
+            "version": "6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoole/ide-helper.git",
-                "reference": "2806169ec7385e3b5eb484efef1f4764af46d995"
+                "reference": "6f12243dce071714c5febe059578d909698f9a52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/2806169ec7385e3b5eb484efef1f4764af46d995",
-                "reference": "2806169ec7385e3b5eb484efef1f4764af46d995",
+                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/6f12243dce071714c5febe059578d909698f9a52",
+                "reference": "6f12243dce071714c5febe059578d909698f9a52",
                 "shasum": ""
             },
             "type": "library",
@@ -8434,9 +8434,9 @@
             "description": "IDE help files for Swoole.",
             "support": {
                 "issues": "https://github.com/swoole/ide-helper/issues",
-                "source": "https://github.com/swoole/ide-helper/tree/5.1.8"
+                "source": "https://github.com/swoole/ide-helper/tree/6.0.2"
             },
-            "time": "2025-08-04T05:40:28+00:00"
+            "time": "2025-03-23T07:31:41+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -9249,7 +9249,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.1"
+        "php": ">=8.4"
     },
     "platform-dev": {},
     "plugin-api-version": "2.9.0"
