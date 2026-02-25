@@ -64,4 +64,26 @@ This will start the cli-server on port `9501`, and bind it to all network interf
 - A nice tip is to rename `hyperf-skeleton` of files like `composer.json` and `docker-compose.yml` to your actual project name.
 - Take a look at `config/routes.php` and `app/Controller/IndexController.php` to see an example of a HTTP entrypoint.
 
+## Produção
+
+Para subir em produção **sem** o watcher (hot reload) e com otimizações:
+
+1. **Não use o override de desenvolvimento**  
+   O Compose não deve carregar `docker-compose.override.yml` (ele troca o comando para `server:watch`). Duas opções:
+   - **Opção A:** subir só com o compose base e variáveis de produção:
+     ```bash
+     APP_ENV=production SCAN_CACHEABLE=true docker compose -f docker-compose.yml up -d
+     ```
+   - **Opção B:** usar o compose de produção (env já ajustado):
+     ```bash
+     docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+     ```
+
+2. **Variáveis importantes em produção**
+   - `APP_ENV=production` — desativa debug e ajusta comportamento da aplicação.
+   - `SCAN_CACHEABLE=true` — o Hyperf usa cache de metadados (anotações, etc.), melhor para desempenho.
+
+3. **Opcional: imagem só para produção**  
+   Se quiser uma imagem sem montar código do host: no `Dockerfile` descomente e use `RUN composer install --no-dev --optimize-autoloader` no build e, no servidor, não monte o volume `.:/opt/www` (ou use um `docker-compose.prod.yml` que não defina esse volume).
+
 **Remember:** you can always replace the contents of this README.md file to something that fits your project description.

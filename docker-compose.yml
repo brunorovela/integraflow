@@ -1,3 +1,7 @@
+# Modo watcher (hot reload): use
+#   docker compose run --rm integraflow php /opt/www/bin/hyperf.php server:watch
+# ou override o command no serviço integraflow com:
+#   command: ["php", "/opt/www/bin/hyperf.php", "server:watch"]
 services:
   integraflow:
     build:

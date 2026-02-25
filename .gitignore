@@ -15,3 +15,4 @@ vendor/
 /phpstan.neon
 /phpunit.xml
 .github
+/docker-compose.override.yml

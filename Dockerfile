@@ -20,4 +20,7 @@ RUN git config --global --add safe.directory /opt/www
 
 EXPOSE 9501
 
-ENTRYPOINT ["php", "/opt/www/bin/hyperf.php", "start"]
+# ENTRYPOINT sem "start" para o compose poder sobrescrever com command: ["server:watch"]
+ENTRYPOINT ["php", "/opt/www/bin/hyperf.php"]
+
+CMD ["start"]
